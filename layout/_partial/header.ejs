@@ -1,4 +1,7 @@
 <!-- ## Header ##-->
+<% if (theme.article_encrypt && page.password) { %>
+<script type="text/javascript" id="encrypt" src="<%= url_for("js/article.encrypt.js") %>" title="<%= page.title %>" password="<%= page.password %>"></script>
+<% } %>
 <header>
     <h1 class="header-title text-center"><a href="<%= config.root %>"><%= config.title %></a></h1>
 

@@ -410,6 +410,10 @@ vendors:
   prettify_theme:
 
 fragment_cache: false
+
+# article encrypt
+article_encrypt: true
+
 # Theme Version
 #   localStorage cache version
 verison: 1.3.3
